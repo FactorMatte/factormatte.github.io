@@ -91,11 +91,11 @@
           <h1 class="title is-1 publication-title">FactorMatte: Redefining Video Matting for Re-Composition Tasks</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://keunhong.com">Zeqi Gu</a><sup>1,2</sup>,&nbsp</span>
+              <a href="https://www.cs.cornell.edu/~zeqigu/">Zeqi Gu</a><sup>1,2</sup>,&nbsp</span>
             <span class="author-block">
               <a href="https://www.cs.cornell.edu/~wenqixian/">Wenqi Xian</a><sup>1,2</sup>,&nbsp</span>
             <span class="author-block">
-              <a href="https://www.cs.cornell.edu/~snavely/">Noah Snavely</a><sup>1,2,3</sup>,&nbsp
+              <a href="https://www.cs.cornell.edu/~snavely/">Noah Snavely</a><sup>1,2</sup>,&nbsp
             </span>
             <span class="author-block">
               <a href="http://abedavis.com/">Abe Davis</a><sup>2</sup>
@@ -105,7 +105,7 @@
           <div class="is-size-5 publication-authors">
             <span class="author-block"><sup>1</sup>Cornell Tech &nbsp</span>
             <span class="author-block"><sup>2</sup>Cornell University &nbsp</span>
-            <span class="author-block"><sup>3</sup>Google Research &nbsp</span>
+            <!-- <span class="author-block"><sup>3</sup>Google Research &nbsp</span> -->
           </div>
 
           <div class="column has-text-centered">
@@ -245,7 +245,7 @@
   <div class="container is-max-desktop">
     <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
-      <div class="column is-fullwidth">
+      <div class="column is-max-desktop">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p style="font-size:120%;">
@@ -289,7 +289,7 @@
         <p>
           &nbsp
         </p>
-      <h2 class="items__title">Example 1: Race car jumping</h2>
+      <h2 class="items__title">Example 1: Truck Jump</h2>
       <div class="items__body">
         <div class="item">
           <div class="item__text">Input video</div>
@@ -328,10 +328,12 @@
         </div>
 
       </div>
-
-      <h2 class="items__title">Example 2: Kid splashing in puddle</h2>
+      <br>
+      <br>
+      <h2 class="items__title">Example 2: Kid Splashing in Puddle</h2>
       <div class="items__body">
         <div class="item">
+          <div class="item__text">Input video</div>
           <div class="item__video">
             <video autoplay loop muted  class="video__item" controls>
             <source src="Sec1_puddle-splash/original.mp4" type="video/mp4">
@@ -341,6 +343,7 @@
         </div>
 
         <div class="item">
+          <div class="item__text">Foreground</div>
           <div class="item__video">
             <video autoplay loop muted class="video__item" controls>
             <source src="Sec1_puddle-splash/CM_rgba_l2.mp4" type="video/mp4">
@@ -350,6 +353,7 @@
         </div>
 
         <div class="item">
+          <div class="item__text">Background</div>
           <div class="item__video">
             <video autoplay loop muted  class="video__item" controls>
             <source src="Sec1_puddle-splash/CM_counterfactual.mp4" type="video/mp4">
@@ -360,6 +364,7 @@
         </div>
 
         <div class="item">
+          <div class="item__text">Re-Composition</div>
           <div class="item__video">
             <video autoplay loop muted  class="video__item" controls>
             <source src="Recomposition/KidSplashThwomp.mp4" type="video/mp4">
@@ -370,11 +375,13 @@
         </div>
 
       </div>
+      <br>
+      <br>
 
-
-      <h2 class="items__title">Example 3: Breakdancing</h2>
+      <h2 class="items__title">Example 3: Breakdance</h2>
       <div class="items__body">
         <div class="item">
+          <div class="item__text">Input video</div>
           <div class="item__video">
             <video autoplay loop muted  class="video__item" controls>
             <source src="Sec1_breakdance/original.mp4" type="video/mp4">
@@ -384,6 +391,7 @@
         </div>
 
         <div class="item">
+          <div class="item__text">Foreground</div>
           <div class="item__video">
             <video autoplay loop muted class="video__item" controls>
             <source src="Sec1_breakdance/CM_rgba_l2.mp4" type="video/mp4">
@@ -393,6 +401,7 @@
         </div>
 
         <div class="item">
+          <div class="item__text">Background</div>
           <div class="item__video">
             <video autoplay loop muted  class="video__item" controls>
             <source src="Sec1_breakdance/CM_counterfactual.mp4" type="video/mp4">
@@ -403,6 +412,7 @@
         </div>
 
         <div class="item">
+          <div class="item__text">Re-Composition</div>
           <div class="item__video">
             <video autoplay loop muted  class="video__item" controls>
             <source src="Recomposition/FactorMatteIsAwesome.mp4" type="video/mp4">
@@ -413,45 +423,45 @@
         </div>
 
       </div>
-
-      <h2 class="items__title">Example 4: Kite surfing</h2>
+      <br>
+      <br>
+      <h2 class="items__title">Example 4: Kite-Surf</h2>
       <div class="items__body">
         <div class="item">
+          <div class="item__text">Input video</div>
           <div class="item__video">
             <video autoplay loop muted  class="video__item" controls>
             <source src="Sec1_kite-surf/original.mp4" type="video/mp4">
             </video>
           </div>
-          <div class="item__text">Input video</div>
         </div>
 
         <div class="item">
+          <div class="item__text">Foreground</div>
           <div class="item__video">
             <video autoplay loop muted class="video__item" controls>
             <source src="Sec1_kite-surf/CM_rgba_l2.mp4" type="video/mp4">
             </video>
           </div>
-          <div class="item__text">Foreground</div>
         </div>
 
         <div class="item">
+          <div class="item__text">Background</div>
           <div class="item__video">
             <video autoplay loop muted  class="video__item" controls>
             <source src="Sec1_kite-surf/CM_counterfactual.mp4" type="video/mp4">
             </video>
           </div>
-          <div class="item__text">Background</div>
 
         </div>
 
         <div class="item">
+          <div class="item__text">Re-Composition</div>
           <div class="item__video">
             <video autoplay loop muted  class="video__item" controls>
             <source src="Recomposition/KittenWaterSkiComposite.mp4" type="video/mp4">
             </video>
           </div>
-          <div class="item__text">Re-Composition</div>
-
         </div>
 
       </div>
@@ -469,246 +479,232 @@
     <p>
       &nbsp
     </p>
-  <h2 class="items__title">Example 1: Skier landing</h2>
+  <h2 class="items__title">Example 1: Skier Landing</h2>
   <div class="items__body">
     <div class="item">
+      <div class="item__text">Input video</div>
       <div class="item__video">
         <video autoplay loop muted  class="video__item" controls>
         <source src="Sec1_ski/original.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="item__text">Input video</div>
     </div>
 
     <div class="item">
+      <div class="item__text">OmniMatte alpha</div>
       <div class="item__video">
         <video autoplay loop muted  class="video__item" controls>
         <source src="Sec1_ski/OM_a_l1.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="item__text">OmniMatte alpha</div>
-
     </div>
 
     <div class="item">
+      <div class="item__text">OmniMatte RGB</div>
       <div class="item__video">
         <video autoplay loop muted  class="video__item" controls>
         <source src="Sec1_ski/OM_rgb_l1.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="item__text">OmniMatte RGB</div>
-
     </div>
 
     <div class="item">
+      <div class="item__text">OmniMatte RGBa</div>
       <div class="item__video">
         <video autoplay loop muted  class="video__item" controls>
         <source src="Sec1_ski/OM_rgba_l1.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="item__text">OmniMatte RGBa</div>
-
     </div>
 
     <div class="item">
+      <div class="item__text">Input mask</div>
       <div class="item__video">
         <video autoplay loop muted class="video__item" controls>
         <source src="Sec1_ski/mask_l2.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="item__text">Input mask</div>
     </div>
 
     <div class="item">
+      <div class="item__text">FactorMatte alpha</div>
       <div class="item__video">
         <video autoplay loop muted  class="video__item" controls>
         <source src="Sec1_ski/CM_a_l2.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="item__text">FactorMatte alpha</div>
-
     </div>
 
     <div class="item">
+      <div class="item__text">FactorMatte RGB</div>
       <div class="item__video">
         <video autoplay loop muted  class="video__item" controls>
         <source src="Sec1_ski/CM_rgb_l2.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="item__text">FactorMatte RGB</div>
-
     </div>
 
     <div class="item">
+      <div class="item__text">FactorMatte RGBa</div>
       <div class="item__video">
         <video autoplay loop muted  class="video__item" controls>
         <source src="Sec1_ski/CM_rgba_l2.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="item__text">FactorMatte RGBa</div>
-
     </div>
   </div>
 
-  <h2 class="items__title">Example 2: Hiking</h2>
+  <br>
+  <br>
+  <h2 class="items__title">Example 2: Hike</h2>
   <div class="items__body">
     <div class="item">
+      <div class="item__text">Input video</div>
       <div class="item__video">
         <video autoplay loop muted  class="video__item" controls>
         <source src="Sec1_hike/original.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="item__text">Input video</div>
     </div>
 
     <div class="item">
+      <div class="item__text">OmniMatte alpha</div>
       <div class="item__video">
         <video autoplay loop muted  class="video__item" controls>
         <source src="Sec1_hike/OM_a_l1.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="item__text">OmniMatte alpha</div>
-
     </div>
 
     <div class="item">
+      <div class="item__text">OmniMatte RGB</div>
       <div class="item__video">
         <video autoplay loop muted  class="video__item" controls>
         <source src="Sec1_hike/OM_rgb_l1.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="item__text">OmniMatte RGB</div>
-
     </div>
 
     <div class="item">
+      <div class="item__text">OmniMatte RGBa</div>
       <div class="item__video">
         <video autoplay loop muted  class="video__item" controls>
         <source src="Sec1_hike/OM_rgba_l1.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="item__text">OmniMatte RGBa</div>
-
     </div>
 
     <div class="item">
+      <div class="item__text">Input mask</div>
       <div class="item__video">
         <video autoplay loop muted class="video__item" controls>
         <source src="Sec1_hike/mask.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="item__text">Input mask</div>
     </div>
 
     <div class="item">
+      <div class="item__text">FactorMatte alpha</div>
       <div class="item__video">
         <video autoplay loop muted  class="video__item" controls>
         <source src="Sec1_hike/CM_a_l2.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="item__text">FactorMatte alpha</div>
-
     </div>
 
     <div class="item">
+      <div class="item__text">FactorMatte RGB</div>
       <div class="item__video">
         <video autoplay loop muted  class="video__item" controls>
         <source src="Sec1_hike/CM_rgb_l2.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="item__text">FactorMatte RGB</div>
-
     </div>
 
     <div class="item">
+      <div class="item__text">FactorMatte RGBa</div>
       <div class="item__video">
         <video autoplay loop muted  class="video__item" controls>
         <source src="Sec1_hike/CM_rgba_l2.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="item__text">FactorMatte RGBa</div>
-
     </div>
   </div>
 
-  <h2 class="items__title">Example 3: Kite surfing</h2>
+  <br>
+  <br>
+  <h2 class="items__title">Example 3: Kite-Surf</h2>
   <div class="items__body">
     <div class="item">
+      <div class="item__text">Input video</div>
       <div class="item__video">
         <video autoplay loop muted  class="video__item" controls>
         <source src="Sec1_kite-surf/original.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="item__text">Input video</div>
     </div>
 
     <div class="item">
+      <div class="item__text">OmniMatte alpha</div>
       <div class="item__video">
         <video autoplay loop muted  class="video__item" controls>
         <source src="Sec1_kite-surf/CM_a_l2.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="item__text">OmniMatte alpha</div>
-
     </div>
 
     <div class="item">
+      <div class="item__text">OmniMatte RGB</div>
       <div class="item__video">
         <video autoplay loop muted  class="video__item" controls>
         <source src="Sec1_kite-surf/OM_rgb_l1.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="item__text">OmniMatte RGB</div>
-
     </div>
 
     <div class="item">
+      <div class="item__text">OmniMatte RGBa</div>
       <div class="item__video">
         <video autoplay loop muted  class="video__item" controls>
         <source src="Sec1_kite-surf/OM_rgba_l1.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="item__text">OmniMatte RGBa</div>
-
     </div>
 
     <div class="item">
+      <div class="item__text">Input mask</div>
       <div class="item__video">
         <video autoplay loop muted class="video__item" controls>
         <source src="Sec1_kite-surf/mask_l2.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="item__text">Input mask</div>
     </div>
 
     <div class="item">
+      <div class="item__text">FactorMatte alpha</div>
       <div class="item__video">
         <video autoplay loop muted  class="video__item" controls>
         <source src="Sec1_kite-surf/CM_a_l2.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="item__text">FactorMatte alpha</div>
-
     </div>
 
     <div class="item">
+      <div class="item__text">FactorMatte RGB</div>
       <div class="item__video">
         <video autoplay loop muted  class="video__item" controls>
         <source src="Sec1_kite-surf/CM_rgb_l2.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="item__text">FactorMatte RGB</div>
-
     </div>
 
     <div class="item">
+      <div class="item__text">FactorMatte RGBa</div>
       <div class="item__video">
         <video autoplay loop muted  class="video__item" controls>
         <source src="Sec1_kite-surf/CM_rgba_l2.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="item__text">FactorMatte RGBa</div>
-
     </div>
 
   </div>
@@ -728,39 +724,39 @@
   <div class="items__body">
 
     <div class="item">
+      <div class="item__text">Input</div>
       <div class="item__video">
         <video autoplay loop muted  class="video__item" controls>
         <source src="Sec3_VideoMatting/VM_orig.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="item__text">Input</div>
     </div>
 
     <div class="item">
+      <div class="item__text">OmniMatte</div>
       <div class="item__video">
         <video autoplay loop muted  class="video__item" controls>
         <source src="Sec3_VideoMatting/VM_OM_matte.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="item__text">OmniMatte</div>
     </div>
 
     <div class="item">
+      <div class="item__text">BGM</div>
       <div class="item__video">
         <video autoplay loop muted  class="video__item" controls>
         <source src="Sec3_VideoMatting/VM_BGM_matte.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="item__text">BGM</div>
     </div>
 
     <div class="item">
+      <div class="item__text">FactorMatte</div>
       <div class="item__video">
         <video autoplay loop muted  class="video__item" controls>
         <source src="Sec3_VideoMatting/VM_CM_matte.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="item__text">FactorMatte</div>
     </div>
   </div>
 
@@ -771,7 +767,7 @@
 <div class="items__container">
   <h1 class="title is-3"><a name="background_sub" id="background_sub"></a>Background Substraction</h1>
   <p style="font-size:120%;">
-  Another example is the tas of background subtraction. We select clips from  <a href="https://openaccess.thecvf.com/content_cvpr_workshops_2014/W12/papers/Wang_CDnet_2014_An_2014_CVPR_paper.pdf/">CDW-2014</a> with shadows and reflections that should be associated with foreground objects, 
+  Another example is the task of background subtraction. We select clips from  <a href="https://openaccess.thecvf.com/content_cvpr_workshops_2014/W12/papers/Wang_CDnet_2014_An_2014_CVPR_paper.pdf/">CDW-2014</a> with shadows and reflections that should be associated with foreground objects, 
   and featuring significant camera jitter, as well as changes in zoom and exposure.
   </p>
   <p>
@@ -781,6 +777,7 @@
   <h2 class="items__title">Example 1: Traffic</h2>
   <div class="items__body">
     <div class="item">
+      <div class="item__text">Input video</div>
       <div class="item__video">
         <video autoplay loop muted  class="video__item" controls>
         <source src="Sec2_BackgroundSubtraction/BS_original_traffic.mp4" type="video/mp4">
@@ -790,6 +787,7 @@
     </div>
 
     <div class="item">
+      <div class="item__text">FgSegNet-v2</div>
       <div class="item__video">
         <video autoplay loop muted class="video__item" controls>
         <source src="Sec2_BackgroundSubtraction/BS_FgSeg_traffic.mp4" type="video/mp4">
@@ -799,6 +797,7 @@
     </div>
 
     <div class="item">
+      <div class="item__text">OmniMatte</div>
       <div class="item__video">
         <video autoplay loop muted  class="video__item" controls>
         <source src="Sec2_BackgroundSubtraction/BS_OM_traffic.mp4" type="video/mp4">
@@ -809,6 +808,7 @@
     </div>
 
     <div class="item">
+      <div class="item__text">FactorMatte</div>
       <div class="item__video">
         <video autoplay loop muted  class="video__item" controls>
         <source src="Sec2_BackgroundSubtraction/BS_CM_traffic.mp4" type="video/mp4">
@@ -820,44 +820,45 @@
 
   </div>
 
-
+  <br>
+  <br>
   <h2 class="items__title">Example 2: ZoomInZoomOut</h2>
   <div class="items__body">
     <div class="item">
+      <div class="item__text">Input video</div>
       <div class="item__video">
         <video autoplay loop muted  class="video__item" controls>
         <source src="Sec2_BackgroundSubtraction/BS_Zoom_orig.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="item__text">Input video</div>
     </div>
 
     <div class="item">
+      <div class="item__text">FgSegNet-v2</div>
       <div class="item__video">
         <video autoplay loop muted class="video__item" controls>
         <source src="Sec2_BackgroundSubtraction/BS_FgSeg_Zoom.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="item__text">FgSegNet-v2</div>
     </div>
 
     <div class="item">
+      <div class="item__text">OmniMatte</div>
       <div class="item__video">
         <video autoplay loop muted  class="video__item" controls>
         <source src="Sec2_BackgroundSubtraction/BS_OM_zoom.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="item__text">OmniMatte</div>
 
     </div>
 
     <div class="item">
+      <div class="item__text">FactorMatte</div>
       <div class="item__video">
         <video autoplay loop muted  class="video__item" controls>
         <source src="Sec2_BackgroundSubtraction/BS_Zoom_CM.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="item__text">FactorMatte</div>
 
     </div>
 
@@ -888,41 +889,39 @@
   <h2 class="items__title">Video Inpainting</h2>
   <div class="items__body">
     <div class="item">
+      <div class="item__text">Input video</div>
       <div class="item__video_protrait">
         <video autoplay loop muted  class="video__item" controls>
         <source src="Sec5_OtherApps/inpainting_input.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="item__text">Input video</div>
     </div>
 
     <div class="item">
+      <div class="item__text">Seg mask</div>
       <div class="item__video_protrait">
         <video autoplay loop muted  class="video__item" controls>
         <source src="Sec5_OtherApps/inpainting_segmask.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="item__text">Seg mask</div>
-
     </div>
 
     <div class="item">
+      <div class="item__text">OmniMatte</div>
       <div class="item__video_protrait">
         <video autoplay loop muted class="video__item" controls>
         <source src="Sec5_OtherApps/inpainting_OM.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="item__text">OmniMatte</div>
     </div>
 
     <div class="item">
+      <div class="item__text">FactorMatte</div>
       <div class="item__video_protrait">
         <video autoplay loop muted  class="video__item" controls>
         <source src="Sec5_OtherApps/inpainting_CM.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="item__text">FactorMatte</div>
-
     </div>
 
   </div>
@@ -938,31 +937,30 @@
   <h2 class="items__title">Color Pop</h2>
   <div class="items__body">
     <div class="item">
+      <div class="item__text">Input video</div>
       <div class="item__video_protrait">
         <video autoplay loop muted  class="video__item" controls>
         <source src="Sec5_OtherApps/colorpop_input.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="item__text">Input video</div>
     </div>
 
     <div class="item">
+      <div class="item__text">OmniMatte</div>
       <div class="item__video_protrait">
         <video autoplay loop muted class="video__item" controls>
         <source src="Sec5_OtherApps/OM_colorpop.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="item__text">OmniMatte</div>
     </div>
 
     <div class="item">
+      <div class="item__text">FactorMatte</div>
       <div class="item__video_protrait">
         <video autoplay loop muted  class="video__item" controls>
         <source src="Sec5_OtherApps/CM_colorpop.mp4" type="video/mp4">
         </video>
       </div>
-      <div class="item__text">FactorMatte</div>
-
     </div>
 
   </div>
@@ -1124,7 +1122,7 @@
   <!-- <div class="container"> -->
     <div class="content has-text-centered">
           <p>
-            Thanks <a href="https://github.com/nerfies/nerfies.github.io">nerfies</a> for the website template.
+            Thanks to <a href="https://github.com/nerfies/nerfies.github.io">nerfies</a> for the website template.
           </p>
     </div>
       <!-- </div> -->
