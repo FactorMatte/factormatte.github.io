@@ -193,7 +193,7 @@ body {
 	font-size: 14px;
 	background-color: rgb(255, 255, 255);
 	color: rgb(51, 51, 51);
-	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	/* font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; */
 }
 
 
@@ -228,7 +228,7 @@ li {
  }
 
 .container {
-	width: 1400px;
+	width: 80%;
 	margin: 0 auto;
 	min-height: 1000px;
 	margin: 0 auto; /* top and bottom, right and left */
