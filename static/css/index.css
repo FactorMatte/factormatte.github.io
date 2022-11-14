@@ -280,6 +280,14 @@ li {
 	height: 128px;
 	object-fit: cover;
 }
+.item__video__teaser video {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 1030px;
+	height: auto;
+	object-fit: cover;
+}
 .item__text {
 	font-size: 15px;
 	line-height: 150%;
